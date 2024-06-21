@@ -2,9 +2,9 @@
   <v-app-bar app>
     <v-img src="@/assets/cativa-logo.png" max-height="40" contain  />
     <v-spacer ></v-spacer>
-    <v-btn text @click="scrollToSection('home')">Inicio</v-btn>
-    <v-btn text @click="scrollToSection('about')">Sobre</v-btn>
-    <v-btn text @click="scrollToSection('register')">Cadastro</v-btn>
+    <v-btn text to="/">Inicio</v-btn>
+    <v-btn text to="/about">Sobre</v-btn>
+    <v-btn text to="/register">Cadastro</v-btn>
   </v-app-bar>
 </template>
 
